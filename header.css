@@ -1,0 +1,187 @@
+header{
+    background-color: #403E3B;
+    border-bottom: solid 1px white;
+}
+
+#tec{
+    width: 8728vw;
+}
+
+#fp{
+    width: 30px;
+}
+
+#minombre{
+    color: #403E3B;
+}
+
+.des{
+    background-color: white;
+}
+
+body{
+    background-color: #D8D9D7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto{
+    background-color:#403E3B;
+}
+
+a:link{
+    text-decoration: none
+}
+
+#perfil{
+    background-color:#A5A6A1;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.idioma{
+    background-color: #0D0D0D;
+    color: white;
+
+
+    
+}
+
+.sp1{
+    background-color: #8C6E49;;
+} 
+
+#proyecto-1{
+    background-image: url("pagina.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-2{
+    background-image: url('clon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-3{
+    background-image: url('portafolio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.icono{
+    font-size: 1.5rem;
+    color: white;
+}
+
+button{
+    width: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+#testimonios p{
+    color:white;
+}
+
+#testimonio h2{
+    color: white;
+}
+
+.uwu{
+    color: white;
+ }
+
+ #contacto{
+    border-top: solid 1px white;
+
+ }
+
+ .icono2{
+    font-size: 1.3rem;
+    color: white;
+ }
+
+.bi-envelope-at{
+    font-size: 2rem;
+    margin: 7px;
+}
+
+.bi-linkedin{
+    font-size: 2rem;
+    margin: 7px;
+}
+
+.nav{
+  text-align: center;
+}
+
+.nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .1em 1em;
+  padding: 0;
+}
+
+.nav a {
+  padding: .5em .5em;
+  color: whitesmoke;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a::before,
+.nav a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #8C6E49;
+  border-right: 3px solid #8C6E49;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #8C6E49;
+  border-left: 3px solid #8C6E49;
+  transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: #8C6E49;
+}
